@@ -1,6 +1,6 @@
 FROM mhart/alpine-node:8.0.0
 ENV PATH="$PATH:/bin/bash" \
-    BENTO4_BIN="/opt/bento4/bin"
+    BENTO4_BIN="/opt/bento4/bin" \
     JAVA_VERSION_MAJOR=8 \
     JAVA_VERSION_MINOR=162 \
     JAVA_VERSION_BUILD=12 \
